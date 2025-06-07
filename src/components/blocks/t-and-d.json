@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_blocks_t_and_ds",
+  "info": {
+    "displayName": "t&d"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_navbars",
+  "info": {
+    "displayName": "Navbar",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "logoName": {
+      "type": "string"
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "blocks.cta-image"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.cta"
+    }
+  }
+}

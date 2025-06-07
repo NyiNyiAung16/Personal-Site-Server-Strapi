@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_pages",
+  "info": {
+    "singularName": "about-page",
+    "pluralName": "about-pages",
+    "displayName": "About Page"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "td": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.t-and-d"
+    },
+    "mtd": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.meet-the-dev"
+    }
+  }
+}

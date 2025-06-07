@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_global_foooters",
+  "info": {
+    "displayName": "Foooter",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "copyright": {
+      "type": "string"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "blocks.cta-image"
+    },
+    "footerNav": {
+      "type": "component",
+      "repeatable": false,
+      "component": "global.navbar"
+    }
+  }
+}
