@@ -11,9 +11,6 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "title": {
-      "type": "string"
-    },
     "navbar": {
       "type": "component",
       "repeatable": false,

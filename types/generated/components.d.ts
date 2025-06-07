@@ -17,6 +17,7 @@ export interface BlocksCta extends Struct.ComponentSchema {
 export interface BlocksCtaImage extends Struct.ComponentSchema {
   collectionName: 'components_blocks_cta_images';
   info: {
+    description: '';
     displayName: 'CTA-Image';
   };
   attributes: {
@@ -84,7 +85,7 @@ export interface GlobalNavbar extends Struct.ComponentSchema {
   };
   attributes: {
     links: Schema.Attribute.Component<'blocks.cta', true>;
-    logo: Schema.Attribute.Component<'blocks.cta-image', false>;
+    logoImage: Schema.Attribute.Media<'images'>;
     logoName: Schema.Attribute.String;
   };
 }

@@ -6,18 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "logoName": {
-      "type": "string"
-    },
-    "logo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "blocks.cta-image"
-    },
     "links": {
       "type": "component",
       "repeatable": true,
       "component": "blocks.cta"
+    },
+    "logoName": {
+      "type": "string"
+    },
+    "logoImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
