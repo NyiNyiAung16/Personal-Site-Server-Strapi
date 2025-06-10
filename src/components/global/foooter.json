@@ -6,18 +6,20 @@
   },
   "options": {},
   "attributes": {
-    "copyright": {
-      "type": "string"
-    },
     "links": {
       "type": "component",
       "repeatable": true,
       "component": "blocks.cta-image"
     },
-    "footerNav": {
-      "type": "component",
-      "repeatable": false,
-      "component": "global.navbar"
+    "logoName": {
+      "type": "string"
+    },
+    "logoImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

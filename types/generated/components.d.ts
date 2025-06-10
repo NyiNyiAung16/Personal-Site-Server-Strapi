@@ -71,9 +71,9 @@ export interface GlobalFoooter extends Struct.ComponentSchema {
     displayName: 'Foooter';
   };
   attributes: {
-    copyright: Schema.Attribute.String;
-    footerNav: Schema.Attribute.Component<'global.navbar', false>;
     links: Schema.Attribute.Component<'blocks.cta-image', true>;
+    logoImage: Schema.Attribute.Media<'images'>;
+    logoName: Schema.Attribute.String;
   };
 }
 
